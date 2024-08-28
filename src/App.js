@@ -1,24 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
+import Home from "./Home"
+import Useeffect from './Useeffect';
+import Usestate from './Usestate';
+import  Useref from "./Useref"
+import Task from './Task';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+<>
+<Useref/>
+<Task/>
+{/* <Usestate/> */}
+{/* <Useeffect/> */}
+{/* <h1>react app</h1>
+<h2 style={{color:"green",backgroundColor:"yellow"}}>hello</h2> */}
+{/* <Home></Home> */}
+</>
   );
 }
 
